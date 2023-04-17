@@ -1,7 +1,7 @@
 # Description
 This is the sample implementation of the asr websocket python server by using WebRTC livekit Egress. You can transcribe the speech audio file from livekit published audio track microphone per 30 seconds while saving the original audio file and resampled audio file that will be fed into faster_whisper. 
 
-# Demo Video
+# Demo Video(Japanese Transcription)
 
 
 https://user-images.githubusercontent.com/7510974/232441524-4e7fdb81-d4c8-4f61-b8d4-a999d194dd31.mp4
