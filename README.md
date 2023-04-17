@@ -2,7 +2,10 @@
 This is the sample implementation of the asr websocket python server by using WebRTC livekit Egress. You can transcribe the speech audio file from livekit published audio track microphone per 30 seconds while saving the original audio file and resampled audio file that will be fed into faster_whisper. 
 
 # Demo Video
-https://github.com/atyenoria/livekit-whisper-transcribe/blob/main/Japanese%20whisper%20ASR%20PoC.mp4 
+
+
+https://user-images.githubusercontent.com/7510974/232441524-4e7fdb81-d4c8-4f61-b8d4-a999d194dd31.mp4
+
 
 
 # Preparation 
@@ -24,7 +27,3 @@ ChatGPT4 for any unknown issues.
 - Head part audio cut off issue when receiving the websocket audio streaming from egress 
 - Cuda error on g5.xlarge instance (sudo apt install nvidia-driver-470 worked)
 - Resample from "pcm 16bit 48Khz 2channel" to "pcm 16bit 16Khz 1channel"
-- 
-
-# Author 
-Akinori Nakajima
