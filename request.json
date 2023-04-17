@@ -1,0 +1,5 @@
+{
+    "room_name": "your livekit room name",
+    "track_id": "audio track id ",
+    "websocket_url": "ws://your server ip:8080/ws"
+  }

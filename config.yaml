@@ -1,0 +1,9 @@
+root@stg-livekit:~# cat ~/egress-test/config.yml 
+api_key: your-livekit-api-key
+api_secret: your-livekit-secret-key
+ws_url:  ws://your-livekit-server-ip:7880
+redis:
+  address: your-redis-host:6379
+    #username: root
+  password:  foobared
+  db: 1
