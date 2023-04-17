@@ -9,12 +9,12 @@ https://user-images.githubusercontent.com/7510974/232441524-4e7fdb81-d4c8-4f61-b
 
 
 # Preparation 
-livekit-server https://github.com/livekit 
-egress https://github.com/livekit/egress
-faster whisper https://github.com/guillaumekln/faster-whisper
-AWS g5.xlarge instance
-Vultr VPS for livekit 
-ChatGPT4 for any unknown issues. 
+- livekit-server https://github.com/livekit 
+- egress https://github.com/livekit/egress
+- faster whisper https://github.com/guillaumekln/faster-whisper
+- AWS g5.xlarge instance
+- Vultr VPS for livekit 
+- ChatGPT4 for any unknown issues. 
 
 # Setup  
 0. run the egress by "docker run --rm -e EGRESS_CONFIG_FILE=/out/config.yaml --net=host -v ~/egress-test:/out livekit/egress" after setting config.yaml
